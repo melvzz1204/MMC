@@ -25,10 +25,7 @@ hr {
   font-family: "Bebas Neue", serif;
   color: white;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+  border-radius: 1px;
   cursor: pointer;
   transition: all 0.5s ease;
-}
-.primary-btn:hover{
-  background-color: #6a0f8d;
 }

@@ -1,5 +1,5 @@
-import "./css/sidepanel.css";
-import Closebtn from "./assets/close.svg";
+import "../css/sidepanel.css";
+import Closebtn from "/Slide-img/close.svg";
 import { useState } from "react";
 
 export default function Sidepanel() {

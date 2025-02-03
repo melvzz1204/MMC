@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Re-painting works at Eastwood Villa San Isidro Rodriguez Rizal",
+    "images": [
+      { "src": "/latestProject-img/project01.jpg", "alt": "Project 1 Image 1" },
+      { "src": "/latestProject-img/project02.jpg", "alt": "Project 1 Image 2" },
+      { "src": "/latestProject-img/project03.jpg", "alt": "Project 1 Image 3" },
+      { "src": "/latestProject-img/project04.jpg", "alt": "Project 1 Image 4" },
+      { "src": "/latestProject-img/project05.jpg", "alt": "Project 1 Image 5" }
+    ],
+    "paragraph": ""
+  }
+]

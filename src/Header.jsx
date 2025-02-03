@@ -1,7 +1,7 @@
 import './css/head.css'
-import Menulog from './assets/menu.svg'
-import SocialMedia from './SocialMedia'
-import Sidepanel from './Sidepanel'
+import Menulog from '/Slide-img/menu.svg'
+import SocialMedia from './component/SocialMedia'
+import Sidepanel from './component/Sidepanel'
 import { useState } from 'react'
 
 export default function Head() {

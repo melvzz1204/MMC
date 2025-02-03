@@ -1,8 +1,8 @@
-import Fb from './assets/socialMedia-img/fb.svg'
-import './css/socialmedia.css'
-import Linkedin from './assets/socialMedia-img/linkedin.svg'
-import Viber from './assets/socialMedia-img/viber.svg'
-import Search from './assets/socialMedia-img/search.svg'
+import Fb from '/socialMedia-img/fb.svg'
+import '../css/socialmedia.css'
+import Linkedin from '/socialMedia-img/linkedin.svg'
+import Viber from '/socialMedia-img/viber.svg'
+import Search from '/socialMedia-img/search.svg'
 export default function SocialMedia() {
   return (
     <div className='socialmedia-main-content'>

@@ -23,12 +23,23 @@ div span {
     background-color: rgb(72, 7, 97);
     height: 2px;
     margin-top: 8px;
-    width: 10%;
+    width: 50%;
     opacity: 70%;
   
 }
  .btn-content{
     margin: auto 30%;
 }
+.img-content{
+    width: 100%;
+    height: 100%;
 }
- 
+.content-project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+    gap: 2rem;
+}
+}
