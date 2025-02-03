@@ -1,15 +1,12 @@
-import Head from "./Header"
-import Content from "./content"
+import Head from "./Header";
+import Content from "./content";
 function App() {
-
-
-
   return (
     <>
-     <Head />
-     <Content /> 
+      <Head />
+      <Content />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

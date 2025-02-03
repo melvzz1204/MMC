@@ -20,3 +20,16 @@ hr {
   color: #ffffff; 
   background-color: #ffffff;
 }
+.primary-btn{
+  background-color: #480761;
+  font-family: "Bebas Neue", serif;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.primary-btn:hover{
+  background-color: #e08906;
+  transform: translateY(-2px);
+}
