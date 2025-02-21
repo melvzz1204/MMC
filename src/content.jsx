@@ -13,13 +13,13 @@ export default function content() {
         <button className="primary-btn btn-content">Request Appointment</button>
       </div>
       {Content.map((item) => (
-          <CardProject
+        <CardProject
           key={item.id}
-          images={item.images}          
-          title={item.title}    
-          paragraph={item.paragraph}      
-          />
-        ))}
-      </ >    
+          images={item.images}
+          title={item.title}
+          paragraph={item.paragraph}
+        />
+      ))}
+    </>
   );
 }
