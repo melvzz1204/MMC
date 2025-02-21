@@ -1,17 +1,19 @@
 import "../css/sidepanel.css";
 import Closebtn from "/Slide-img/close.svg";
+import { useState } from "react";
 
-export default function Sidepanel({ show, setShow }) {
+export default function Sidepanel() {
+  const [close, setClose] = useState(true);
   return (
     <div className="sidepanel-main-container">
-      {show && (
+      {close && (
         <ul>
           <img
             src={Closebtn}
             alt=""
             className="img-close-btn"
             onClick={() => {
-              setShow(false);
+              setClose(false);
             }}
           />
           <li>Home</li>
