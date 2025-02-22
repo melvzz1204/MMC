@@ -1,4 +1,4 @@
-import "../css/appointmentForm.css";
+import "../css/appointmentform.css";
 import { useState } from "react";
 import btnClose from "/Slide-img/close.svg";
 import emailjs from "emailjs-com";
