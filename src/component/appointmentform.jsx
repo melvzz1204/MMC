@@ -1,7 +1,7 @@
 import "../css/appointmentForm.css";
 import { useState } from "react";
 import btnClose from "/Slide-img/close.svg";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 
 export default function AppointmentForm({ hideform, setHideForm }) {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -21,9 +21,9 @@ export default function AppointmentForm({ hideform, setHideForm }) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const serviceId = "YOUR_SERVICE_ID";
-    const templateId = "YOUR_TEMPLATE_ID";
-    const userId = "YOUR_USER_ID";
+    const serviceId = "service_vfe4qik"; // Replace with your Service ID
+    const templateId = "template_xpupgts"; // Replace with your Template ID
+    const userId = "TD4UUYuN65kqZRrSS"; // Replace with your User ID
 
     const templateParams = {
       name: name,
