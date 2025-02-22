@@ -1,15 +1,19 @@
 @media screen and (max-width: 425px) {
   .main-content-container {
-    padding: 2rem;
+    padding: 0;
   }
   .content-title-head {
     font-size: 2em;
-    opacity: 70%;
-    line-height: 2rem;
+    text-align: center;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
     margin-bottom: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: aliceblue;
+    z-index: 1;
   }
   div span {
     font-family: "roboto", sans-serif;
@@ -26,6 +30,9 @@
   }
   .btn-content {
     margin: auto 30%;
+    position: absolute;
+    top: 70%;
+    height: 65px;
   }
   .img-content {
     width: 100%;
@@ -40,13 +47,13 @@
     gap: 2rem;
   }
   .img-carousell {
-    width: 350px;
+    width: 450px;
     object-fit: cover;
-    height: 400px;
-    transition: opacity 0.5s ease-in-out; /* Adjust duration as needed */
+    height: 500px;
+    transition: opacity 0.5s ease-in-out;
+    filter: brightness(50%);
   }
-}
-
-.fade-out {
-  opacity: 0.3;
+  .fade-out {
+    opacity: 0.3;
+  }
 }
