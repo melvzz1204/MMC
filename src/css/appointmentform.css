@@ -24,6 +24,7 @@
 }
 
 .appointment-form {
+  /*  display: none; */
   background: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -31,7 +32,7 @@
   width: 85%;
   max-width: 600px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 7%;
   transform: translate(-50, -50);
   animation: popup 0.3s ease-out forwards; /* Apply the animation */
@@ -117,5 +118,14 @@
   .appointment-form textarea,
   .appointment-form button[type="submit"] {
     font-size: 14px;
+  }
+  .formBtnclose {
+    width: 30px;
+    filter: invert(1);
+  }
+  .formBtnclose-container {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 12px;
   }
 }
