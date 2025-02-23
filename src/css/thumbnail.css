@@ -33,13 +33,13 @@
 
 .remaining-count {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 0;
+  right: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 20%;
+  height: 20%;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-weight: bold;
