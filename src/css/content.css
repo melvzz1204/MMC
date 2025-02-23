@@ -3,12 +3,15 @@
     position: relative;
   }
   .content-title-head {
-    font-size: 3em;
+    font-size: 4em;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     position: absolute;
-    top: 30%;
+    left: 50%;
+    top: 45%;
+    width: 100%;
     text-align: center;
+    transform: translate(-50%, -50%);
     color: aliceblue;
     z-index: 3;
     background: linear-gradient(to right, #fafbff, #f06108);
@@ -30,12 +33,14 @@
     opacity: 70%;
   }
   .btn-content {
-    top: 60%;
-    left: 35%;
-    width: 150px;
-    height: 45px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
     position: absolute;
     z-index: 5;
+    font-size: 1.2em;
   }
   .img-content {
     width: 100%;
