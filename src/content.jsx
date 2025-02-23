@@ -44,16 +44,10 @@ export default function content() {
 
   return (
     <>
-      <h1 className="content-title-head">Dream it and we build it together</h1>
-      <div className="img-carousell-container">
-        <div className="carousel-text-overlay"></div>
-        <img
-          src={images[currentImageIndex]}
-          alt={`Carousel ${currentImageIndex + 1}`}
-          className={`img-carousell ${isFading ? "fade-out" : ""}`}
-        />
-      </div>
       <div className="main-content-container">
+        <h1 className="content-title-head">
+          Dream it and we build it together
+        </h1>
         <button
           className="primary-btn btn-content"
           onClick={() => {
@@ -62,7 +56,13 @@ export default function content() {
         >
           Request Appointment
         </button>
+        <img
+          src={images[currentImageIndex]}
+          alt={`Carousel ${currentImageIndex + 1}`}
+          className={`img-carousell ${isFading ? "fade-out" : ""}`}
+        />
       </div>
+      <div className="main-content-container"></div>
       {Content.map((item) => (
         <CardProject
           key={item.id}
