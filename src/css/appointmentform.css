@@ -13,7 +13,7 @@
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px #d4760b;
   width: 85%;
   max-width: 600px;
   position: absolute;
@@ -47,7 +47,7 @@
 
 .appointment-form input[type="file"] {
   background-color: #f9f9f9;
-  color: #555;
+  color: #d4760b;
 }
 
 .appointment-form input[type="file"]:hover {
@@ -76,7 +76,7 @@
 }
 
 .appointment-form button[type="submit"] {
-  background-color: #282727;
+  background-color: #d4760b;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -88,7 +88,7 @@
 }
 
 .appointment-form button[type="submit"]:hover {
-  background-color: rgb(91, 91, 91);
+  background-color: #d4760b;
 }
 
 @media (max-width: 480px) {

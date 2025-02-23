@@ -45,7 +45,7 @@ export default function content() {
   return (
     <>
       <div className="main-content-container">
-        <h1 className="content-title-head">
+        <h1 className="content-title-head animated-text">
           Dream it and we build it together
         </h1>
         <button

@@ -61,3 +61,17 @@
     filter: brightness(0.4);
   }
 }
+
+.animated-text {
+  animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    top: 40%;
+  }
+}
