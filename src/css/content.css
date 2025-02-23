@@ -13,7 +13,7 @@
     text-align: center;
     transform: translate(-50%, -50%);
     color: aliceblue;
-    z-index: 3;
+    z-index: 1;
     background: linear-gradient(to right, #fafbff, #f06108);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -39,7 +39,7 @@
     width: 50%;
     height: 60px;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
     font-size: 1.3em;
   }
   .img-content {

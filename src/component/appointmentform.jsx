@@ -51,70 +51,76 @@ export default function AppointmentForm({ hideform, setHideForm }) {
   return (
     <>
       {hideform && (
-        <div className="appointment-form">
-          <div className="formBtnclose-container">
-            <img
-              src={btnClose}
-              alt=""
-              className="formBtnclose"
-              onClick={() => {
-                setHideForm(false);
-              }}
-            />
-          </div>
-          <form onSubmit={sendEmail}>
-            <input
-              type="text"
-              placeholder="Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-            <input
-              type="text"
-              placeholder="Mobile no."
-              value={mobile}
-              onChange={(e) => setMobile(e.target.value)}
-              required
-            />
-            <input
-              type="date"
-              value={date}
-              onChange={(e) => setDate(e.target.value)}
-              required
-            />
-            <input
-              type="time"
-              value={time}
-              onChange={(e) => setTime(e.target.value)}
-              required
-            />
-            <textarea
-              placeholder="Tell us about your project"
-              value={projectDetails}
-              onChange={(e) => setProjectDetails(e.target.value)}
-              required
-            />
-            {/* Image upload here */}
-            <input type="file" accept="image/*" onChange={handleImageChange} />
-            {selectedImage && (
+        <div className="backdrop">
+          <div className="appointment-form">
+            <div className="formBtnclose-container">
               <img
-                src={selectedImage}
-                alt="Uploaded"
-                style={{ maxWidth: "100px", marginTop: "10px" }}
+                src={btnClose}
+                alt=""
+                className="formBtnclose"
+                onClick={() => {
+                  setHideForm(false);
+                }}
               />
-            )}
-            <button type="submit" name="submit">
-              Submit
-            </button>
-          </form>
+            </div>
+            <form onSubmit={sendEmail}>
+              <input
+                type="text"
+                placeholder="Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+              <input
+                type="text"
+                placeholder="Mobile no."
+                value={mobile}
+                onChange={(e) => setMobile(e.target.value)}
+                required
+              />
+              <input
+                type="date"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+                required
+              />
+              <input
+                type="time"
+                value={time}
+                onChange={(e) => setTime(e.target.value)}
+                required
+              />
+              <textarea
+                placeholder="Tell us about your project"
+                value={projectDetails}
+                onChange={(e) => setProjectDetails(e.target.value)}
+                required
+              />
+              {/* Image upload here */}
+              <input
+                type="file"
+                accept="image/*"
+                onChange={handleImageChange}
+              />
+              {selectedImage && (
+                <img
+                  src={selectedImage}
+                  alt="Uploaded"
+                  style={{ maxWidth: "100px", marginTop: "10px" }}
+                />
+              )}
+              <button type="submit" name="submit">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       )}
     </>
