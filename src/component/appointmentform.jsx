@@ -2,7 +2,6 @@ import "../css/appointmentform.css";
 import { useState } from "react";
 import btnClose from "/Slide-img/close.svg";
 import emailjs from "emailjs-com";
-
 export default function AppointmentForm({ hideform, setHideForm }) {
   const [selectedImage, setSelectedImage] = useState(null);
   const [name, setName] = useState("");
