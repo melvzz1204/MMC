@@ -24,14 +24,7 @@
     font-size: 0.8em;
     opacity: 60%;
   }
-  .hrhr {
-    color: black;
-    background-color: rgb(72, 7, 97);
-    height: 2px;
-    margin-top: 8px;
-    width: 50%;
-    opacity: 70%;
-  }
+
   .btn-content {
     top: 80%;
     left: 50%;
@@ -46,13 +39,20 @@
     width: 100%;
     height: 100%;
   }
+  .hrhr {
+    color: black;
+    background-color: rgb(72, 7, 97);
+    height: 2px;
+    margin-top: 8px;
+    width: 30%;
+    opacity: 70%;
+  }
   .content-project-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     padding: 2rem;
-    gap: 2rem;
   }
   .img-carousell {
     width: 100%;

@@ -10,5 +10,17 @@
       { "src": "/latestProject-img/project05.jpg", "alt": "Project 1 Image 5" }
     ],
     "paragraph": ""
+  },
+  {
+    "id": 2,
+    "title": "Interior renovation of a Bungalow Type House",
+    "images": [
+      { "src": "/latestProject-img/project06.jpg", "alt": "Project 1 Image 6" },
+      { "src": "/latestProject-img/project07.jpg", "alt": "Project 1 Image 7" },
+      { "src": "/latestProject-img/project08.jpg", "alt": "Project 1 Image 8" },
+      { "src": "/latestProject-img/project09.jpg", "alt": "Project 1 Image 9" },
+      { "src": "/latestProject-img/project10.jpg", "alt": "Project 1 Image 10" }
+    ],
+    "paragraph": ""
   }
 ]

@@ -31,15 +31,15 @@ export default function content() {
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
       setIsFading(false);
-    }, 500); // Match the CSS transition duration
+    }, 300); // Match the CSS transition duration
   };
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       goToNext();
-    }, 5000); // Change image every 1 second
+    }, 3000); // Change image every 1 second
 
-    return () => clearInterval(intervalId); // Clean up the interval on unmount
+    return () => clearInterval(intervalId);
   }, [currentImageIndex]);
 
   return (
@@ -62,16 +62,21 @@ export default function content() {
           className={`img-carousell ${isFading ? "fade-out" : ""}`}
         />
       </div>
-      <div className="main-content-container"></div>
-      {Content.map((item) => (
-        <CardProject
-          key={item.id}
-          images={item.images}
-          title={item.title}
-          paragraph={item.paragraph}
-        />
-      ))}
-      <AppointmentForm hideform={hideform} setHideForm={setHideForm} />
+      <div className="content-project-container">
+        <span>Latest Projects</span>
+        <hr className="hrhr" />
+      </div>
+      <div className="main-content-container">
+        {Content.map((item) => (
+          <CardProject
+            key={item.id}
+            images={item.images}
+            title={item.title}
+            paragraph={item.paragraph}
+          />
+        ))}
+        <AppointmentForm hideform={hideform} setHideForm={setHideForm} />
+      </div>
     </>
   );
 }

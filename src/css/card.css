@@ -2,11 +2,11 @@
   .project-main-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
   .project-title {
-    font-weight: 400;
-    margin-top: 10px;
+    font-weight: 600;
     font-family: "roboto", serif;
+    margin-top: -1.3rem;
   }
 }
